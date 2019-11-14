@@ -2,4 +2,5 @@ rootProject.name = 'spring-boot-practise'
 include 'boot-1-mvc-jsp'
 include 'boot-1-mvc-thymeleaf'
 include 'boot-1-jetty'
+include 'boot-1-config-properties'
 

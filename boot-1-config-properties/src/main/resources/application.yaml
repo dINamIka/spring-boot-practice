@@ -1,0 +1,7 @@
+vital:
+  things:
+    heart-rate: 60
+    body-temperature: 37
+    blood-pressure:
+      - "120"
+      - "80"
