@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '1.5.2.RELEASE'
+    id 'war'
+}
+
+group 'com.yarmak'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.springframework.boot:spring-boot-starter-web"
+    compile "org.springframework.boot:spring-boot-starter-tomcat"
+    compile "org.apache.tomcat.embed:tomcat-embed-jasper"
+    compileOnly 'org.eclipse.jdt.core.compiler:ecj:4.6.1'
+    compile "javax.servlet:jstl"
+
+//    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+bootRun {
+    main = 'com.yarmak.WebApplication'
+}
