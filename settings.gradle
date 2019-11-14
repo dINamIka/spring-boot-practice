@@ -1,0 +1,5 @@
+rootProject.name = 'spring-boot-practise'
+include 'boot-1'
+include 'boot-2'
+include 'boot-1-mvc-thymeleaf'
+

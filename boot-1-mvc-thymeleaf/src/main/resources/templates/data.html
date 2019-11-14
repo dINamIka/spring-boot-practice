@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--add thymeleaf scheme-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Data page</title>
+</head>
+<body>
+
+<div>
+    <h><b>Stock details</b></h>
+
+    <table>
+        <tr>
+            <th>Item ID</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+        <tr th:each="item:${data}">
+            <td th:text="${item.id}"></td>
+            <td th:text="${item.name}"></td>
+            <td th:text="${item.price}"></td>
+        </tr>
+    </table>
+</div>
+
+
+</body>
+</html>
