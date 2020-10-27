@@ -9,6 +9,10 @@ logging:
     org.springframework: INFO
     com.yarmak: INFO
 
+management:
+  security:
+    enabled: false
+
 ---
 spring:
   profiles: test

@@ -4,4 +4,5 @@ include 'boot-1-mvc-thymeleaf'
 include 'boot-1-jetty'
 include 'boot-1-config-properties'
 include 'boot-1-conditional-annotations'
+include 'boot-2-basics'
 
