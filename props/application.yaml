@@ -1,3 +1,6 @@
 vital:
   things:
     heart-rate: 88
+
+external:
+  key: it's from the external

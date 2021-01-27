@@ -5,3 +5,5 @@ vital:
     blood-pressure:
       - "120"
       - "80"
+cp:
+  key: it is from the classpath
